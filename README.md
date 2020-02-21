@@ -1,1 +1,2 @@
-# patchan.github.io
+# patchan.ca
+Adapted from https://github.com/BlackrockDigital/startbootstrap-resume
