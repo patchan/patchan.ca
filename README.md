@@ -1,2 +1,2 @@
 # patchan.ca
-Adapted from https://github.com/BlackrockDigital/startbootstrap-greyscale
+Adapted from https://github.com/BlackrockDigital/startbootstrap-grayscale
