@@ -23,7 +23,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: auto;
+  padding: 0.9rem;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -218,7 +218,8 @@
 
 @media (max-width: 768px) {
   .about-section {
-    min-height: calc(100vh - 56px);
+    min-height: calc(100vh - 70px);
+    padding-top: 5vh;
   }
   .about-section h2 {
     text-align: center;;
@@ -247,7 +248,7 @@
   .projects-section {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    min-height: calc(100vh - 56px);
+    min-height: calc(100vh - 70px);
   }
 }
 
@@ -296,7 +297,7 @@
 
 .contact-section {
   padding-top: 17vh;
-  min-height: calc(90vh - 56px);
+  min-height: calc(90vh - 70px);
 }
 
 .contact-section .card {
@@ -356,7 +357,6 @@ body {
   background-color: #161616;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
 }
 
 h2 {
