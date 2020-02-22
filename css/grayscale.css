@@ -27,7 +27,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(white, 85%);
   outline: none;
   background-color: transparent;
 }
@@ -53,9 +53,11 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.85);
+    transition: all 0.3s ease-in-out;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -66,10 +68,12 @@
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
     display: inline-block;
+    transition: all 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #64a19d;
     display: inline-block;
+    transition: all 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
@@ -116,17 +120,19 @@
   min-height: 4rem;
   height: 7%;
   margin-top: -6rem;
+  opacity: 40%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.masthead .continue:hover {
+  opacity: 85%;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .masthead .continue-arrow {
   margin: auto;
   min-width: 32px;
-  width: 45%;
-  opacity: 40%;
-}
-
-.masthead .continue-arrow:hover {
-  opacity: 85%;
+  width: 45%; 
 }
 
 @media (min-width: 768px) {
@@ -347,6 +353,7 @@
   font-size: 1.25rem;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
 }
 
 .social a:hover {
