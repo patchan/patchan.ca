@@ -218,10 +218,13 @@
 
 @media (max-width: 768px) {
   .about-section {
-    padding-top: 8vh;
+    min-height: calc(100vh - 56px);
   }
   .about-section h2 {
     text-align: center;;
+  }
+  .about-section .about-info {
+    max-width: 90%;
   }
   .about-section .row {
     display: block;
@@ -242,7 +245,9 @@
 
 @media (max-width: 768px) {
   .projects-section {
-    padding: 8vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    min-height: calc(100vh - 56px);
   }
 }
 
@@ -291,7 +296,7 @@
 
 .contact-section {
   padding-top: 17vh;
-  min-height: 80vh;
+  min-height: calc(90vh - 56px);
 }
 
 .contact-section .card {
@@ -313,6 +318,9 @@
 }
 
 @media (min-width: 768px) {
+  .contact-section {
+    min-height: calc(90vh - 74px);
+  }
   .contact-section .social a {
     height: 3.5rem;
     width: 3.5rem;
@@ -379,5 +387,4 @@ a:focus, a:hover {
 footer {
   height: 10vh;
   font-size: 80%;
-  padding-top: 2vh;
 }
