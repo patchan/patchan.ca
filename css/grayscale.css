@@ -366,14 +366,13 @@ body {
   background-image: url("../img/bg-trees.jpg");
   background-color: #161616;
   background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   min-height: 100vh;
 }
 
 @media(min-width: 768px) {
   body {
     background-size: cover;
+    background-attachment: fixed;
   }
 }
 
