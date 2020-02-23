@@ -98,6 +98,7 @@
   width: 100%;
   height: 100vh;
   min-height: 35rem;
+  min-width: 320px;
   padding: 0 1rem;
 }
 
@@ -265,6 +266,7 @@
 .projects-section {
   padding: 10vh 0;
   min-height: 100vh;
+  min-width: 320px;
 }
 
 .projects-section .featured-text {
@@ -307,6 +309,7 @@
 .contact-section {
   padding-top: 17vh;
   min-height: calc(90vh - 74px);
+  min-width: 320px;
 }
 
 .contact-section .card {
@@ -363,16 +366,7 @@
 body {
   font-family: 'Source Sans Pro';
   font-size: 1.1rem;
-  background-image: url("../img/bg-trees.jpg");
   background-color: #161616;
-  background-position: center;
-}
-
-@media(min-width: 768px) {
-  body {
-    background-size: cover;
-    background-attachment: fixed;
-  }
 }
 
 h2 {
@@ -396,12 +390,22 @@ a:focus, a:hover {
   background: none;
 }
 
+.bg-primary {
+  background-image: url("../img/bg-trees.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100wh;
+}
+
 .text-primary {
   color: #64a19d !important;
 }
 
 footer {
   height: 10vh;
+  min-width: 320px;
   font-size: 80%;
 }
 
@@ -463,4 +467,5 @@ footer {
   }
   100% {
     opacity:1;
+  }
 }
