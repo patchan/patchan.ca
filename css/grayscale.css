@@ -372,6 +372,7 @@ body {
   background-color: #161616;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 h2 {
