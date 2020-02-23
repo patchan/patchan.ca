@@ -117,6 +117,7 @@
 .masthead .continue {
   min-width: 2rem;
   width: 7%;
+  max-width: 96px;
   min-height: 4rem;
   height: 7%;
   margin-top: -6rem;
@@ -132,7 +133,7 @@
 .masthead .continue-arrow {
   margin: auto;
   min-width: 32px;
-  width: 45%; 
+  width: 45%;
 }
 
 @media (min-width: 768px) {
@@ -193,7 +194,7 @@
 .about-section {
   min-height: calc(100vh - 74px);
   background: rgb(22, 22, 22);
-  padding: 10vh 0;
+  padding: 10vh ;
 }
 
 .about-section h2 {
@@ -205,7 +206,8 @@
 }
 
 .about-section .about-info {
-  max-width: 75%;
+  width: 75%;
+  max-width: 1140px;
 }
 
 .about-section .row {
@@ -256,6 +258,7 @@
 
 .projects-section .featured-text {
   padding: 2rem;
+  max-width: 1140px;
 }
 
 @media (max-width: 768px) {
@@ -276,6 +279,7 @@
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
+  max-width: 1140px;
 }
 
 @media (min-width: 992px) {
