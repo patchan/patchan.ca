@@ -366,8 +366,6 @@ body {
   background-image: url("../img/bg-trees.jpg");
   background-color: #161616;
   background-position: center;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
 @media(min-width: 768px) {
