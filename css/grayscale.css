@@ -43,7 +43,7 @@
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
@@ -53,11 +53,11 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.85);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
   #mainNav .nav-link:active {
     color: white;
@@ -68,12 +68,12 @@
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
     display: inline-block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #64a19d;
     display: inline-block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.15s ease-in-out;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
@@ -122,12 +122,12 @@
   height: 7%;
   margin-top: -6rem;
   opacity: 40%;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.25s ease;
 }
 
 .masthead .continue:hover {
   opacity: 85%;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.25s ease;
 }
 
 .masthead .continue-arrow {
@@ -227,6 +227,8 @@
   display: flex;
   margin: 1rem;
   width: 97%;
+  min-width: 10rem;
+  min-height: 10rem;
   max-width: 15rem;
   max-height: 15rem;
 }
@@ -241,13 +243,15 @@
     text-align: center;
   }
   .about-section .about-info {
-    max-width: 90%;
+    width: 90%;
   }
   .about-section .row {
-    display: block;
+    flex-wrap: wrap;
   }
   .about-section .img-profile {
-    display: none;
+    width: 50%;
+    height: 50%;
+    margin-top: 2rem;
   }
 }
 
@@ -334,10 +338,10 @@
   width: 3rem;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 100%;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.6);
-  transition: all 0.3s ease;
+  transition: all 0.15s ease;
 }
 
 .social a:hover {
@@ -356,7 +360,12 @@ body {
   background-color: #161616;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+}
+
+@media(min-width: 768px) {
+  body {
+    background-size: cover;
+  }
 }
 
 h2 {
