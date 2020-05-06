@@ -287,20 +287,28 @@
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 1rem;
   font-size: 90%;
   max-width: 1140px;
 }
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 3rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.projects-section .project-img {
+  margin: 1rem;
+  min-width: 7rem;
+  min-height: 7rem;
+  max-width: 12rem;
+  max-height: 12rem;
 }
 
 .contact-section {
